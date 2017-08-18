@@ -112,7 +112,7 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
                     PauseOtherVideos(video);
 
                     // Play this video on texture where it left off
-                    video.VideoPlayer.Play(false, video.VideoPlayer.GetCurrentPosition());
+                    video.VideoPlayer.Play(true, 0);
                 }
                 else if (state == VideoPlayerHelper.MediaState.REACHED_END)
                 {
@@ -120,7 +120,7 @@ public class TrackableEventHandler : MonoBehaviour, ITrackableEventHandler
                     PauseOtherVideos(video);
 
                     // Play this video from the beginning
-                    video.VideoPlayer.Play(false, 0);
+                    video.VideoPlayer.Play(true, 0);
                 }
             }
         }

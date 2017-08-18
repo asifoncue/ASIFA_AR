@@ -143,7 +143,7 @@ public class VideoPlaybackController : MonoBehaviour
                     PauseOtherVideos(video);
 
                     // Play this video on texture where it left off
-                    video.VideoPlayer.Play(false, video.VideoPlayer.GetCurrentPosition());
+                    video.VideoPlayer.Play(true, 0);
                 }
                 else if (state == VideoPlayerHelper.MediaState.REACHED_END)
                 {

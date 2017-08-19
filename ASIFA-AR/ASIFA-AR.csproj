@@ -91,6 +91,7 @@
     <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
     <Compile Include="Assets\Common\TapHandler.cs" />
     <Compile Include="Assets\Common\TrackableSettings.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\PlayVideo.cs" />
     <Compile Include="Assets\Scripts\TrackableEventHandler.cs" />
     <Compile Include="Assets\Scripts\VideoPlaybackController.cs" />
@@ -143,15 +144,14 @@
     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerHelper.mm.txt" />
     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerWrapper.mm.txt" />
-    <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\GreenMonster.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Monster01.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\Monster02.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\Monster03.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\OrangeMonster.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\PinkMonster.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\TargetImages.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\kids.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\main.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\south.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\stones.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
     <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />

@@ -145,9 +145,13 @@
     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerHelper.mm.txt" />
     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerWrapper.mm.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\GreenMonster.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\InternationalText.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\KidsText.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\MainText.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Monster01.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\OrangeMonster.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\PinkMonster.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\SouthernText.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\TargetImages.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\kids.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\main.xml" />
